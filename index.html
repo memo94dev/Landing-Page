@@ -1,238 +1,259 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Kinesiología Profesional</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <style>
-    body {
-      scroll-behavior: smooth;
-    }
-    .whatsapp-float {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25d366;
-      color: white;
-      border-radius: 50%;
-      padding: 15px;
-      font-size: 24px;
-      z-index: 1000;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    }
-    .whatsapp-float:hover {
-      background-color: #1ebe5d;
-    }
-    footer {
-      background-color: #0d6efd;
-      color: white;
-      padding: 20px 0;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kinesiología Profesional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25d366;
+            color: white;
+            border-radius: 50%;
+            padding: 15px;
+            font-size: 24px;
+            z-index: 1000;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .whatsapp-float:hover {
+            background-color: #1ebe5d;
+        }
+
+        footer {
+            background-color: #0d6efd;
+            color: white;
+            padding: 20px 0;
+        }
+    </style>
 </head>
+
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Kinesiología Pro</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mí</a></li>
-          <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Carrusel -->
-  <section id="inicio" class="mt-5 pt-4">
-    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/01.jpg" class="d-block w-100" alt="Trabajo 1">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Kinesiología Pro</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/02.jpg" class="d-block w-100" alt="Trabajo 2">
+    </nav>
+
+    <!-- Carrusel -->
+    <section id="inicio" class="mt-5 pt-4">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/01.jpg" class="d-block w-100" alt="Trabajo 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/02.jpg" class="d-block w-100" alt="Trabajo 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/03.jpg" class="d-block w-100" alt="Trabajo 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
         </div>
-        <div class="carousel-item">
-          <img src="img/03.jpg" class="d-block w-100" alt="Trabajo 3">
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Sobre el Profesional</h2>
+            <p class="lead">Con más de 10 años de experiencia en kinesiología, ayudando a personas a recuperar su
+                movilidad y bienestar.</p>
         </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-      </button>
-    </div>
-  </section>
+    </section>
 
-  <!-- Sobre mí -->
-  <section id="sobre" class="py-5 bg-light">
-    <div class="container text-center">
-      <h2>Sobre el Profesional</h2>
-      <p class="lead">Con más de 10 años de experiencia en kinesiología, ayudando a personas a recuperar su movilidad y bienestar.</p>
-    </div>
-  </section>
-
-<!-- Servicios con Cards -->
-<section id="servicios" class="py-5 bg-light">
-  <div class="container text-center">
-    <h2>Servicios</h2>
-    <div class="row mt-4">
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <img src="img/04.jpg" class="card-img-top" alt="Rehabilitación Física">
-          <div class="card-body">
-            <h5 class="card-title">Rehabilitación Física</h5>
-            <p class="card-text">Tratamientos personalizados para lesiones musculares y articulares.</p>
-          </div>
+    <!-- Servicios con Cards -->
+    <section id="servicios" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Servicios</h2>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/04.jpg" class="card-img-top" alt="Rehabilitación Física">
+                        <div class="card-body">
+                            <h5 class="card-title">Rehabilitación Física</h5>
+                            <p class="card-text">Tratamientos personalizados para lesiones musculares y articulares.</p>
+                            <a href="https://wa.me/595981123456?text=Hola,%20te%20escribo%20desde%20la%20web%20para%20saber%20más%20sobre%20Rehabilitación%20Física."
+                                target="_blank" class="btn btn-outline-primary mt-auto">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/05.jpg" class="card-img-top" alt="Terapia Manual">
+                        <div class="card-body">
+                            <h5 class="card-title">Terapia Manual</h5>
+                            <p class="card-text">Masoterapia, movilización y técnicas de relajación para mejorar tu
+                                bienestar.</p>
+                            <a href="https://wa.me/595981123456?text=Hola,%20te%20escribo%20desde%20la%20web%20para%20saber%20más%20sobre%20Rehabilitación%20Física."
+                                target="_blank" class="btn btn-outline-primary mt-auto">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="img/06.jpg" class="card-img-top" alt="Ejercicio Terapéutico">
+                        <div class="card-body">
+                            <h5 class="card-title">Ejercicio Terapéutico</h5>
+                            <p class="card-text">Planes de ejercicios adaptados a cada paciente para una recuperación
+                                efectiva.</p>
+                            <a href="https://wa.me/595981123456?text=Hola,%20te%20escribo%20desde%20la%20web%20para%20saber%20más%20sobre%20Rehabilitación%20Física."
+                                target="_blank" class="btn btn-outline-primary mt-auto">Saber más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <img src="img/05.jpg" class="card-img-top" alt="Terapia Manual">
-          <div class="card-body">
-            <h5 class="card-title">Terapia Manual</h5>
-            <p class="card-text">Masoterapia, movilización y técnicas de relajación para mejorar tu bienestar.</p>
-          </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2>Testimonios</h2>
+            <blockquote class="blockquote">
+                <p>"Gracias a su tratamiento, volví a caminar sin dolor. ¡Un profesional increíble!"</p>
+                <footer class="blockquote-footer">María López</footer>
+            </blockquote>
+            <blockquote class="blockquote mt-4">
+                <p>"Muy dedicado y atento. Me ayudó a recuperarme tras una cirugía de rodilla."</p>
+                <footer class="blockquote-footer">Carlos Gómez</footer>
+            </blockquote>
         </div>
-      </div>
-      <div class="col-md-4 mb-4">
-        <div class="card h-100 shadow-sm">
-          <img src="img/06.jpg" class="card-img-top" alt="Ejercicio Terapéutico">
-          <div class="card-body">
-            <h5 class="card-title">Ejercicio Terapéutico</h5>
-            <p class="card-text">Planes de ejercicios adaptados a cada paciente para una recuperación efectiva.</p>
-          </div>
+    </section>
+
+    <!-- Redes Sociales -->
+    <section id="redes" class="py-5 bg-primary text-white text-center">
+        <div class="container">
+            <h2>Síguenos en redes sociales</h2>
+            <p>Conectate con nosotros para recibir consejos, novedades y promociones.</p>
+            <div class="d-flex justify-content-center gap-4 mt-3">
+                <a href="https://facebook.com/tu_pagina" target="_blank" class="text-white fs-3"><i
+                        class="bi bi-facebook"></i></a>
+                <a href="https://instagram.com/tu_pagina" target="_blank" class="text-white fs-3"><i
+                        class="bi bi-instagram"></i></a>
+                <a href="https://twitter.com/tu_pagina" target="_blank" class="text-white fs-3"><i
+                        class="bi bi-twitter-x"></i></a>
+                <a href="https://youtube.com/tu_pagina" target="_blank" class="text-white fs-3"><i
+                        class="bi bi-youtube"></i></a>
+                <a href="https://tiktok.com/@tu_pagina" target="_blank" class="text-white fs-3"><i
+                        class="bi bi-tiktok"></i></a>
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-  <!-- Testimonios -->
-  <section id="testimonios" class="py-5 bg-light">
-    <div class="container text-center">
-      <h2>Testimonios</h2>
-      <blockquote class="blockquote">
-        <p>"Gracias a su tratamiento, volví a caminar sin dolor. ¡Un profesional increíble!"</p>
-        <footer class="blockquote-footer">María López</footer>
-      </blockquote>
-      <blockquote class="blockquote mt-4">
-        <p>"Muy dedicado y atento. Me ayudó a recuperarme tras una cirugía de rodilla."</p>
-        <footer class="blockquote-footer">Carlos Gómez</footer>
-      </blockquote>
-    </div>
-  </section>
+    <!-- Contacto -->
+    <section id="contacto" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contacto</h2>
+            <p class="text-center">¿Listo para comenzar tu recuperación? ¡Contáctame por WhatsApp o correo!</p>
 
-<!-- Redes Sociales -->
-<section id="redes" class="py-5 bg-primary text-white text-center">
-  <div class="container">
-    <h2>Síguenos en redes sociales</h2>
-    <p>Conectate con nosotros para recibir consejos, novedades y promociones.</p>
-    <div class="d-flex justify-content-center gap-4 mt-3">
-      <a href="https://facebook.com/tu_pagina" target="_blank" class="text-white fs-3"><i class="bi bi-facebook"></i></a>
-      <a href="https://instagram.com/tu_pagina" target="_blank" class="text-white fs-3"><i class="bi bi-instagram"></i></a>
-      <a href="https://twitter.com/tu_pagina" target="_blank" class="text-white fs-3"><i class="bi bi-twitter-x"></i></a>
-      <a href="https://youtube.com/tu_pagina" target="_blank" class="text-white fs-3"><i class="bi bi-youtube"></i></a>
-      <a href="https://tiktok.com/@tu_pagina" target="_blank" class="text-white fs-3"><i class="bi bi-tiktok"></i></a>
-    </div>
-  </div>
-</section>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form action="https://formspree.io/f/tu_codigo_aqui" method="POST">
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" name="_replyto" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
 
-<!-- Mapa de Google -->
-<section id="ubicacion" class="py-5">
-  <div class="container text-center">
-    <h2>Ubicación</h2>
-    <p>Nos encontramos en General Díaz 186, Asunción. ¡Te esperamos!</p>
-    <div class="ratio ratio-16x9 mt-3">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3550.000000000000!2d-57.635000000000!3d-25.285000000000!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945da7f000000000%3A0x0000000000000000!2sGeneral+D%C3%ADaz+186!5e0!3m2!1ses-419!2spy!4v1700000000000"
-        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-  </div>
-</section>
+            <div class="text-center mt-4">
+                <a href="https://wa.me/595981123456" target="_blank" class="btn btn-success">
+                    <i class="bi bi-whatsapp"></i> Enviar mensaje por WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
 
-<!-- Contacto -->
-<section id="contacto" class="py-5">
-  <div class="container">
-    <h2 class="text-center">Contacto</h2>
-    <p class="text-center">¿Listo para comenzar tu recuperación? ¡Contáctame por WhatsApp o correo!</p>
+    <!-- Mapa de Google -->
+    <section id="ubicacion" class="py-5">
+        <div class="container text-center">
+            <h2>Ubicación</h2>
+            <p>Nos encontramos en General Díaz 186, Asunción. ¡Te esperamos!</p>
+            <div class="ratio ratio-16x9 mt-3">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d901.5323049585963!2d-57.407224391179994!3d-25.33344455822864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x945db3005a4d7a2f%3A0xc9af8d01b4d027aa!2zRmlzb19LaW5n8J-RkQ!5e0!3m2!1ses-419!2spy!4v1763072529759!5m2!1ses-419!2spy"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
 
-    <div class="row justify-content-center">
-      <div class="col-md-6">
-        <form action="https://formspree.io/f/tu_codigo_aqui" method="POST">
-          <div class="mb-3">
-            <label for="nombre" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombre" name="nombre" required>
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="email" name="_replyto" required>
-          </div>
-          <div class="mb-3">
-            <label for="mensaje" class="form-label">Mensaje</label>
-            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary w-100">Enviar mensaje</button>
-        </form>
-      </div>
-    </div>
+    <!-- Footer personalizado -->
+    <footer class="footer-custom">
+        <div class="container py-4">
+            <div class="row text-white">
+                <!-- Reseña -->
+                <div class="col-md-4 mb-3">
+                    <h5>Kinesiología Pro</h5>
+                    <p class="text-info">"La importancia de tratar una lesión a tiempo radica en la prevención de
+                        complicaciones a futuro y el mejoramiento de la calidad de vida."</p>
+                </div>
+                <!-- Contacto -->
+                <div class="col-md-4 mb-3">
+                    <h5>Contacto</h5>
+                    <p><i class="bi bi-geo-alt-fill"></i> General Díaz 186</p>
+                    <p><i class="bi bi-telephone-fill"></i> +595 981 123456</p>
+                    <p><i class="bi bi-whatsapp"></i> +595 981 987456</p>
+                </div>
+                <!-- Horario -->
+                <div class="col-md-4 mb-3">
+                    <h5>Horario</h5>
+                    <p><i class="bi bi-clock-fill"></i> Lunes a Sábado: 8:00 - 12:00hs / 15:00 - 18:00hs</p>
+                    <p><i class="bi bi-clock-fill"></i> Domingos: 8:00 - 12:00hs</p>
+                </div>
+            </div>
+            <div class="text-center text-white mt-3">
+                <small>&copy; 2025 Kinesiología Pro. Todos los derechos reservados.</small>
+            </div>
+        </div>
+    </footer>
 
-    <div class="text-center mt-4">
-      <a href="https://wa.me/595981123456" target="_blank" class="btn btn-success">
-        <i class="bi bi-whatsapp"></i> Enviar mensaje por WhatsApp
-      </a>
-    </div>
-  </div>
-</section>
+    <!-- Botón flotante WhatsApp -->
+    <a href="https://wa.me/595981123456" target="_blank" class="whatsapp-float">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
-<!-- Footer personalizado -->
-<footer class="footer-custom">
-  <div class="container py-4">
-    <div class="row text-white">
-      <!-- Reseña -->
-      <div class="col-md-4 mb-3">
-        <h5>Kinesiología Pro</h5>
-        <p class="text-info">"La importancia de tratar una lesión a tiempo radica en la prevención de complicaciones a futuro y el mejoramiento de la calidad de vida."</p>
-      </div>
-      <!-- Contacto -->
-      <div class="col-md-4 mb-3">
-        <h5>Contacto</h5>
-        <p><i class="bi bi-geo-alt-fill"></i> General Díaz 186</p>
-        <p><i class="bi bi-telephone-fill"></i> +595 981 123456</p>
-        <p><i class="bi bi-whatsapp"></i> +595 981 987456</p>
-      </div>
-      <!-- Horario -->
-      <div class="col-md-4 mb-3">
-        <h5>Horario</h5>
-        <p><i class="bi bi-clock-fill"></i> Lunes a Sábado: 8:00 - 12:00hs / 15:00 - 18:00hs</p>
-        <p><i class="bi bi-clock-fill"></i> Domingos: 8:00 - 12:00hs</p>
-      </div>
-    </div>
-    <div class="text-center text-white mt-3">
-      <small>&copy; 2025 Kinesiología Pro. Todos los derechos reservados.</small>
-    </div>
-  </div>
-</footer>
-
-  <!-- Botón flotante WhatsApp -->
-  <a href="https://wa.me/595981123456" target="_blank" class="whatsapp-float">
-    <i class="bi bi-whatsapp"></i>
-  </a>
-
-  <!-- Scripts -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 </body>
+
 </html>
